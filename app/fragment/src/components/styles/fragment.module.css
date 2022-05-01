@@ -1,0 +1,10 @@
+.frag_root {
+    border-style: solid;
+    border-width: 1px;
+    aspect-ratio: 4/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 31%;
+}

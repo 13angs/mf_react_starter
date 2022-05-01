@@ -1,11 +1,15 @@
 import React from 'react';
-import FragmentApp from './apps/FragmentApp';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
 function App() {
     return (
         <div>
-            <div>Container</div>
-            <FragmentApp />
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<HomePage />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }
