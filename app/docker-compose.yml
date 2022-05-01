@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  container:
+  mf:
     image: 13angs/mf_react_starter:latest
     build:
-      context: ./container
-      dockerfile:
-
-
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
