@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  container:
+    image: 13angs/mf_react_starter:latest
+    build:
+      context: ./container
+      dockerfile:
+
+
